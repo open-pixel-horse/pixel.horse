@@ -11,7 +11,7 @@ jobs:
           node-version: '9.x'
       - name: install gulp
         run: bash .github/ci-install-gulp.sh
-      - run: npm ci
+      - run: npm install
       - name: write config.json
         run: cp .github/ci-config.json config.json
       - run: npm run lint
@@ -24,7 +24,7 @@ jobs:
           node-version: '9.x'
       - name: install gulp
         run: bash .github/ci-install-gulp.sh
-      - run: npm ci
+      - run: npm install
       - name: write config.json
         run: cp .github/ci-config.json config.json
       - run: npm run build
