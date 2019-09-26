@@ -1,6 +1,6 @@
 {
 	"title": "pixel.horse CI",
-	"contactEmail": "noreply@pony.dev",
+	"contactEmail": "noreply@pixel.horse",
 	"port": 8090,
 	"adminPort": 8091,
 	"host": "http://localhost:8090/",
